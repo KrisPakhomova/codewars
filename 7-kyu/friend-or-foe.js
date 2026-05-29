@@ -15,3 +15,8 @@ function friend(friends) {
   let result = friends.filter((word) => word.length === 4);
   return result;
 }
+
+// короче версия
+//  function friend(friends){
+//   return friends.filter(n => n.length === 4)
+// }
